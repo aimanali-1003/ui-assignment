@@ -39,3 +39,21 @@ color: #081A2B;
     margin-right: auto;
     
 }
+.card{
+    border: 1px solid rgb(136, 133, 133);
+    height: 300px;
+    box-shadow: 5px 10px #888888;
+    
+}
+.offer4{
+    border-top: 7px solid orange;
+}
+.offer1{
+    border-top: 7px solid yellow;
+}
+.offer2{
+    border-top: 7px solid #C6A136;
+}
+.offer3{
+    border-top: 7px solid #A2B8C1;
+}

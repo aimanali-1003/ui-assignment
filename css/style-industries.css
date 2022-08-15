@@ -1,10 +1,18 @@
-@media (min-width: 768px) {
 
-    /* show 3 items */
-    .carouselPrograms .carousel-inner .active,
-    .carouselPrograms .carousel-inner .active + .carousel-item,
-    .carouselPrograms .carousel-inner .active + .carousel-item + .carousel-item {
-        display: block;
-    }
-    
-    }
+.container > .image1, .container > .image3{
+    width: 300px;
+    height: 300px;
+    filter: brightness(50%);
+ 
+
+}    
+.left{
+    position: absolute;
+    top: 240%;
+    left: 15%;
+}
+.right{
+    position: absolute;
+    top: 240%;
+    right: 24%;
+}

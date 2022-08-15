@@ -1,15 +1,25 @@
+
 .test{
     margin-top: 40px;
    }
+   .color{
+    background-color: #A2B8C1;
+    padding: 30px;
+    
+   }
+  
    .testimonails-list li{
        display: inline;
        list-style: none;
+       
    }
    .testimonails-list li a{
        
        padding: 10px;
        font-weight: bold;
        font-size: 20px;
+       color: rgba(8, 26, 43, 0.75);
+       text-decoration: none;
        
    }
    .testimonails-list a.active{
@@ -81,4 +91,3 @@ p{
     }
     
 }
-
