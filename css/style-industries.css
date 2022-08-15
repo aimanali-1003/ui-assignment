@@ -1,18 +1,11 @@
-
-.container > .image1, .container > .image3{
-    width: 300px;
-    height: 300px;
-    filter: brightness(50%);
- 
-
-}    
-.left{
-    position: absolute;
-    top: 240%;
-    left: 15%;
+.img-short{
+  filter: brightness(50%);
 }
-.right{
-    position: absolute;
-    top: 240%;
-    right: 24%;
+@media (max-width:600px) {
+  .img-short{
+    display: none;
+  }
+  .arrow-right, .arrow-left{
+    display: none;
+  }
 }

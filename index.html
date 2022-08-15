@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/style-news.css"/>
     <link rel="stylesheet" href="css/style-contact-us.css"/>
     <link rel="stylesheet" href="css/style-footer.css"/>
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
  
     <title>UI Assignment Dashboard</title>
@@ -98,8 +98,10 @@
 
       <div class="container card-four">
         
-      <div class="row">
-        <div class="col-sm-3" style="border-color: black;">
+      <div class="row r1">
+        
+        <div class="col-sm-3 o1" style="border-color: black;">
+          <div class="color1"></div>
           <div class="card offer4">
             <img src="images/oracle.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -108,7 +110,9 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3 ">
+       
+        <div class="col-sm-3 o1">
+          <div class="color2"></div>
           <div class="card offer1">
             <img src="images/cloud.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -117,7 +121,9 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        
+        <div class="col-sm-3 o1">
+          <div class="color3"></div>
           <div class="card offer2">
             <img src="images/business.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -126,7 +132,9 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3 ">
+        
+        <div class="col-sm-3 o1">
+          <div class="color4"></div>
           <div class="card offer3">
             <img src="images/entreprise.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -142,12 +150,7 @@
 
       <!--Industries-->
 
-
-
-
-
-
-      
+     
       <div class="container">
         <div class="offer-heading">
           <h3 class="heading-offer">Industries</h3>
@@ -155,23 +158,29 @@
         </div>
 
       </div>
-      <span class="left fa fa-arrow-circle-left fa-4x"></span>
       <div class="container">
-       
-        <div class="col-sm-4 image1">
+        <div class="col-sm-1 arrow-left" style="margin-top: 90px;" >
+          <span class="fa fa-arrow-circle-left fa-3x"></span>
+
+        </div>
+        <div class="col-sm-3 img-short">
           <img src="images/img1.png">
         </div>
-        <div class="col-sm-4 image2">
-
+        <div class="col-sm-3">
           <img src="images/img2.png">
         </div>
-        <div class="col-sm-4 image3">
+        <div class="col-sm-3 img-short">
           <img src="images/img3.png">
-         
         </div>
-        <span class="right fa fa-arrow-circle-right fa-4x "></span>
+        <div class="col-sm-1 arrow-right" style="margin-top: 90px;" >
+          <span class="fa fa-arrow-circle-right fa-3x"></span>
+
+        </div>
+
       </div>
-      
+
+
+     
      
 
     <!--Partners-->
@@ -202,7 +211,7 @@
     <div class="test">
 
     <div class="container">
-      <div class="box">
+      <div class="box box1">
         <span class="ratings">
         <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
@@ -216,7 +225,12 @@
         
         <div >
         <img class="customer-img" src="images/customer2.png" />
-        <h5 class="color">COO, The Baker, Saudi Arabia</h5>
+        <div class="color"><h5>COO, The Baker, Saudi Arabia</h5>
+          <br>
+        <span class="icon fa fa-facebook fa-2x"></span>
+        <span class="icon fa fa-twitter fa-2x"></span>
+        <span class="icon fa fa-youtube fa-2x"></span>
+        <span class="icon fa fa-instagram fa-2x"></span></div>
       </div>
       </div>
       <div class="box">
@@ -234,11 +248,16 @@
   
        
        <div >
-        <img class="customer-img" src="/images/customer.png" />
-        <h5 class="color">CIO, U.S.Based Corporate Wellness Company</h5>
+        <img class="customer-img" src="images/customer.png" />
+        <div class="color"><h5>CIO, U.S.Based Corporate Wellness Company</h5>
+          <br>
+          <span class="icon fa fa-facebook fa-2x"></span>
+          <span class="icon fa fa-twitter fa-2x"></span>
+          <span class="icon fa fa-youtube fa-2x"></span>
+          <span class="icon fa fa-instagram fa-2x"></span></div>
       </div>
       </div>
-      <div class="box">
+      <div class="box box1">
         <span class="ratings">
           <span class="fa fa-star checked"></span>
   <span class="fa fa-star checked"></span>
@@ -251,8 +270,13 @@
   </p>
        
         <div>
-        <img class="customer-img" src="/images/customer3.png" style="margin-top: 130px;"/>
-        <h5 class="color">CEO, Rajgreen Group</h5>
+        <img class="customer-img" src="images/customer3.png" style="margin-top: 130px;"/>
+        <div class="color"><h5>CEO, Rajgreen Group</h5>
+        <br>
+          <span class="icon fa fa-facebook fa-2x"></span>
+          <span class="icon fa fa-twitter fa-2x"></span>
+          <span class="icon fa fa-youtube fa-2x"></span>
+          <span class="icon fa fa-instagram fa-2x"></span></div>
       </div>
       </div>
     </div>
@@ -266,14 +290,14 @@
       <h3 class="heading-offer">Blogs</h3>
       </div>
       <div class="col-sm-4">
-        <button class="button btn-leadership">Show All >></button>
+        <button class="button btn-leadership shows">Show All >></button>
       </div>
   </div>
 
   <!--Blogs-->
-  <div class="blogs">
+  <div class="blogss">
   <div class="col-sm-6">
-    <div class="card blogs card1">
+    <div class="blogs blog1">
       <div class="image">
         <img src="images/img1.png" />
       </div>
@@ -292,7 +316,7 @@
     </div>
   </div>
   <div class="col-sm-6">
-    <div class="card blogs card2">
+    <div class="blogs blog2">
       <div class="image">
         <img src="images/img2.png" />
       </div>
@@ -385,37 +409,35 @@
       <div class="col-sm-6">
         <h3 style="text-align:center;">Contact Us</h3>
         <form action="#">
-          <label for="fname">Your name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
       
-          <label for="lname">Email</label>
           <input type="text" id="lname" name="lastname" placeholder="E-mail">
       
       
-          <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Your message." style="height:200px"></textarea>
       
           <button class="button btn-view-services">Send</button>
         </form>
       </div>
       <div class="col-sm-6 address">
-        <div class="col-sm-2">
+        <div class="col-sm-4">
           <span class="fa fa-map-marker fa-2x"></span>
           <p>602, Pentagon Tower 1, Magarpatla City, Hadapsar, Pune India</p>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-4">
           <span class="fa fa-mobile fa-3x"></span>
           <p>+91 8956001836</p>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-4">
           <span class="fa fa-envelope-o fa-2x"></span>
           
-          <p>contact@newvisionsoftware.in</p>
+          <p style="position: relative; left: 5px;">contact@nevisionsoftware</p>
         </div>
       <img class="map-image" src="images/map.png" alt="loc-map">
-      <span class="fa fa-twitter fa-2x" style="margin-right: 4px;"></span>
-      <span class="fa fa-facebook-official fa-2x" style="margin-right: 4px;"></span>
-      <span class="fa fa-linkedin-square fa-2x" style="margin-right: 4px;"></span>
+      <span class="fa fa-twitter fa-2x" style="margin-right: 9px; color: rgba(13, 137, 202, 1);"></span>
+      <span class="fa fa-facebook-official fa-2x" style="margin-right: 9px;color: rgba(13, 137, 202, 1);"></span>
+
+      <span class="fa fa-linkedin-square fa-2x" style="margin-right: 9px;color: rgba(13, 137, 202, 1);"></span>
       </div>
       </div>
     <!--Footer-->
@@ -423,9 +445,9 @@
 <footer>
   <div class="container">
     <div class="col-sm-3">
-     <h3>Our Offerings</h3>
-     <p class="inside">Software Product Engineering</p>
-     <p class="inside">Business Process management</p>
+     <h3 class="inside">Our Offerings</h3>
+     <p class="inside">Software Product<br> Engineering</p>
+     <p class="inside">Business Process<br> management</p>
      <p class="inside">Cloud</p>
      <p class="inside">DevOps</p>
      <p class="inside">QA Automation</p>
@@ -433,7 +455,7 @@
      <p class="inside">Utilities</p>
     </div>
     <div class="col-sm-3">
-      <h3>Industries</h3>
+      <h3 class="inside">Industries</h3>
       <p class="inside">Insurance</p>
       <p class="inside">Financial Services</p>
       <p class="inside">Energy</p>
@@ -442,7 +464,7 @@
       <p class="inside">Government</p>
     </div>
     <div class="col-sm-3">
-      <h3>Resources</h3>
+      <h3 class="inside">Resources</h3>
       <p class="inside">Events</p>
       <p class="inside">Blog</p>
       <p class="inside">Newsroom</p>
@@ -450,22 +472,23 @@
       <p class="inside">Case Studies</p>
     </div>
     <div class="col-sm-3">
-      <h3>Company</h3>
+      <h3 class="inside">Company</h3>
       <p class="inside">About Us</p>
       <p class="inside">Leadership</p>
       <p class="inside">People and Culture</p>
       <p class="inside">Terms and Conditions</p>
-      <p class="inside">Sitemap</p>
+      
     </div>
+    
+  </div>
   
-  </div>
-  <div class="copy">
-    <p>Copyrights &copy; 2021-New Vision Softcom & Consultancy Pvt. Ltd</p>
-  </div>
   
   
   
   </footer>
+  <div class="copy">
+    <p style="color: white;">Copyrights &copy; 2021-New Vision Softcom & Consultancy Pvt. Ltd</p>
+  </div>
     </main>
    
   </body>

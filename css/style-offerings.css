@@ -41,19 +41,48 @@ color: #081A2B;
 }
 .card{
     border: 1px solid rgb(136, 133, 133);
-    height: 300px;
+    height: 250px;
     box-shadow: 5px 10px #888888;
     
 }
-.offer4{
-    border-top: 7px solid orange;
+
+.color1{
+    background-color:rgb(216, 133, 66);
+    width:190px;
+    height:10px;
+    
+    margin-bottom: 2px;
 }
-.offer1{
-    border-top: 7px solid yellow;
+.color2{
+    background-color: yellow;
+    width:190px;
+    height:10px;
+    
+    margin-bottom: 2px;
 }
-.offer2{
-    border-top: 7px solid #C6A136;
+.color3{
+    background-color: #C6A136;
+    width:190px;
+    height:10px;
+    
+    margin-bottom: 2px;
 }
-.offer3{
-    border-top: 7px solid #A2B8C1;
+.color4{
+    background-color:#A2B8C1;
+    width:190px;
+    height:10px;
+    
+    margin-bottom: 2px;
+}
+.icon{
+    padding: 5px;
+    margin-left: 15px;
+}
+.color > h5{
+    font-weight: bold;
+}
+@media (max-width:600px){
+  .o1{
+    margin-top: 50px;
+  }
 }

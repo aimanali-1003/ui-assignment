@@ -5,6 +5,7 @@
    .color{
     background-color: #A2B8C1;
     padding: 30px;
+    color: white;
     
    }
   
@@ -42,6 +43,7 @@
     transition: 0.9;
     
 }
+
 .box:hover{
     box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
     cursor: pointer;
@@ -88,6 +90,9 @@ p{
     .box{
         width: 100%;
         margin-bottom: 4%;
+    }
+    .box1{
+        display: none;
     }
     
 }
